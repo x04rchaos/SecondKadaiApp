@@ -12,6 +12,7 @@
 		658858C91D2A3DD0006D4F76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658858C71D2A3DD0006D4F76 /* Main.storyboard */; };
 		658858CB1D2A3DD0006D4F76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658858CA1D2A3DD0006D4F76 /* Assets.xcassets */; };
 		658858CE1D2A3DD0006D4F76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658858CC1D2A3DD0006D4F76 /* LaunchScreen.storyboard */; };
+		65ED6C941D2A421100A2A9EA /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ED6C931D2A421100A2A9EA /* NameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		658858CA1D2A3DD0006D4F76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		658858CD1D2A3DD0006D4F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		658858CF1D2A3DD0006D4F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65ED6C931D2A421100A2A9EA /* NameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		658858B71D2A3DCF006D4F76 = {
 			isa = PBXGroup;
 			children = (
+				65ED6C931D2A421100A2A9EA /* NameViewController.swift */,
 				658858C21D2A3DD0006D4F76 /* SecondKadaiApp */,
 				658858C11D2A3DD0006D4F76 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			files = (
 				658858C61D2A3DD0006D4F76 /* ViewController.swift in Sources */,
 				658858C41D2A3DD0006D4F76 /* AppDelegate.swift in Sources */,
+				65ED6C941D2A421100A2A9EA /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				658858D41D2A3DD0006D4F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
